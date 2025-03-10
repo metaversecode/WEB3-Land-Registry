@@ -1,0 +1,21 @@
+{
+    "name": "land-registry",
+    "version": "1.0.0",
+    "description": "A blockchain-based land registry system",
+    "main": "index.js",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+        "i": "npx hardhat run scripts/i.js --network localhost",
+        "node": "npx hardhat node"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+        "hardhat": "^2.12.7"
+    },
+    "dependencies": {
+        "node": "^23.9.0"
+    }
+}
